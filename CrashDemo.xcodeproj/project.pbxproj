@@ -13,6 +13,7 @@
 		ECC14E7D1DF2BBE400E84202 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = ECC14E7B1DF2BBE400E84202 /* Main.storyboard */; };
 		ECC14E7F1DF2BBE400E84202 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = ECC14E7E1DF2BBE400E84202 /* Assets.xcassets */; };
 		ECC14E821DF2BBE400E84202 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = ECC14E801DF2BBE400E84202 /* LaunchScreen.storyboard */; };
+		ECC14E8D1DF2C32100E84202 /* NoExceptionCatchVC.m in Sources */ = {isa = PBXBuildFile; fileRef = ECC14E8C1DF2C32100E84202 /* NoExceptionCatchVC.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -26,6 +27,8 @@
 		ECC14E7E1DF2BBE400E84202 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		ECC14E811DF2BBE400E84202 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		ECC14E831DF2BBE400E84202 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		ECC14E8B1DF2C32100E84202 /* NoExceptionCatchVC.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = NoExceptionCatchVC.h; sourceTree = "<group>"; };
+		ECC14E8C1DF2C32100E84202 /* NoExceptionCatchVC.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = NoExceptionCatchVC.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -58,6 +61,7 @@
 		ECC14E711DF2BBE400E84202 /* CrashDemo */ = {
 			isa = PBXGroup;
 			children = (
+				ECC14E8A1DF2C2E700E84202 /* NoExceptionCatch */,
 				ECC14E751DF2BBE400E84202 /* AppDelegate.h */,
 				ECC14E761DF2BBE400E84202 /* AppDelegate.m */,
 				ECC14E781DF2BBE400E84202 /* ViewController.h */,
@@ -77,6 +81,15 @@
 				ECC14E731DF2BBE400E84202 /* main.m */,
 			);
 			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		ECC14E8A1DF2C2E700E84202 /* NoExceptionCatch */ = {
+			isa = PBXGroup;
+			children = (
+				ECC14E8B1DF2C32100E84202 /* NoExceptionCatchVC.h */,
+				ECC14E8C1DF2C32100E84202 /* NoExceptionCatchVC.m */,
+			);
+			name = NoExceptionCatch;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -153,6 +166,7 @@
 				ECC14E7A1DF2BBE400E84202 /* ViewController.m in Sources */,
 				ECC14E771DF2BBE400E84202 /* AppDelegate.m in Sources */,
 				ECC14E741DF2BBE400E84202 /* main.m in Sources */,
+				ECC14E8D1DF2C32100E84202 /* NoExceptionCatchVC.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

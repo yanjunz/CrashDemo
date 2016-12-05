@@ -8,6 +8,10 @@
 
 #import "AppDelegate.h"
 
+static void my_uncaught_exception_handler(NSException *exception) {
+    NSLog(@"Exception: %@", exception);
+}
+
 @interface AppDelegate ()
 
 @end
@@ -17,6 +21,7 @@
 
 - (BOOL)application:(UIApplication *)application didFinishLaunchingWithOptions:(NSDictionary *)launchOptions {
     // Override point for customization after application launch.
+    NSSetUncaughtExceptionHandler(my_uncaught_exception_handler);
     return YES;
 }
 

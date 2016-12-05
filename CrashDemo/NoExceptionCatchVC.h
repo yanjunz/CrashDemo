@@ -1,5 +1,5 @@
 //
-//  ViewController.h
+//  NoExceptionCatchVC.h
 //  CrashDemo
 //
 //  Created by Yanjun Zhuang on 3/12/2016.
@@ -8,8 +8,6 @@
 
 #import <UIKit/UIKit.h>
 
-@interface ViewController : UITableViewController
-
+@interface NoExceptionCatchVC : UIViewController
 
 @end
-
